@@ -8,4 +8,5 @@ async def root():
 
 @app.post("/")
 async def test():
-    return "ok buddy"
+    
+     return "ok buddy"
