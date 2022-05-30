@@ -31,6 +31,6 @@ jobs:
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
-          # Enable your linters here
+          # Enable your linters here - flake8 installed
           black: true
-          flake8: true
+          flake8: true 
