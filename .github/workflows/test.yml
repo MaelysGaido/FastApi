@@ -24,5 +24,6 @@ jobs:
           pip install pytest
           pip install pytest-cov
           pip install fastapi
+          pip install requests
           # coverage run --source=. -m py.test
           python3 -m pytest test/ 
